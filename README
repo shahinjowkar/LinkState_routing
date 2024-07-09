@@ -1,0 +1,20 @@
+## How to compile
+
+In project root directory `A3` do:
+
+- mvn compile assembly:single
+
+## How to run
+
+In project root directory `A3` do, for a particular `conf` file do (example for router configuration 1):
+
+java -cp target/COMP535-1.0-SNAPSHOT-jar-with-dependencies.jar socs.network.Main conf/router1.conf
+
+## Extra
+
+Also added extra terminal command `printLSD` which prints out current LSD at current router.
+
+
+
+
+
